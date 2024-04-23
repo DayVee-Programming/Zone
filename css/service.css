@@ -1,0 +1,116 @@
+.service {
+  padding-top: 60px;
+}
+
+.service__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.service-desc {
+  max-width: 587px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.service-desc-title {
+  font-family: var(--SB);
+  font-weight: 700;
+  font-size: clamp(2.188rem, 2.063rem + 0.63vw, 2.625rem);
+}
+
+.service-desc-text {
+  line-height: 162%;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  gap: 40px 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-cards-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 34px;
+  max-width: 370px;
+  width: 100%;
+  background: linear-gradient(
+    268.12deg,
+    rgba(254, 254, 255, 0.032) -11.04%,
+    rgba(255, 255, 255, 0.018) 104.89%
+  );
+  box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+  padding: 38px 22px;
+}
+
+.fade-right {
+  opacity: 0;
+  transform: translateX(-200px);
+}
+
+.service-cards-card.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.service-cards-card-logo {
+  border-radius: 55px;
+  width: 74px;
+  height: 74px;
+  background: linear-gradient(180deg, #8a7fd9 0%, #402f8f 100%);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-cards-card-title {
+  font-family: var(--SM);
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 18px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.service-cards-card:hover .service-cards-card-title {
+  color: var(--purple);
+}
+
+.service-cards-card-text {
+  line-height: 162%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.service-cards-card-more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-cards-card-more-span {
+  line-height: 162%;
+  transition: 0.3s;
+}
+
+.service-cards-card-more:hover .service-cards-card-more-span {
+  color: var(--purple);
+}
+
+.service-cards-card-more-svg path {
+  transition: 0.3s;
+}
+
+.service-cards-card-more:hover .service-cards-card-more-svg path {
+  fill: var(--purple);
+}

@@ -1,0 +1,111 @@
+.subscribe {
+  padding: 120px 15px 0 15px;
+}
+
+.subscribe__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 155px 38px 155px;
+  border-radius: 34px;
+  box-shadow: 0 22px 18px 0 rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+}
+
+.subscribe__title {
+  font-family: var(--SB);
+  font-weight: 700;
+  font-size: clamp(2.188rem, 2.066rem + 0.61vw, 2.625rem);
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.subscribe__text {
+  font-family: var(--RoR);
+  font-weight: 400;
+  line-height: 187%;
+  text-align: center;
+  opacity: 0.8;
+  padding-bottom: 28px;
+}
+
+.subscribe__form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 70px;
+  padding: 10px 10px 10px 44px;
+  box-shadow: 10px 24px 54px 0 rgba(0, 0, 0, 0.07);
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0.12) 100%
+  );
+}
+
+.subscribe__form-input {
+  font-family: var(--RuR);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  opacity: 0.9;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--white);
+}
+
+.subscribe__form-input::placeholder {
+  color: var(--white);
+}
+
+.subscribe__form-btn {
+  max-width: 196px;
+  width: 100%;
+  font-family: var(--RuR);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--white);
+  padding: 15px 48px;
+  position: relative;
+  border-radius: 70px;
+  opacity: 0.9;
+  border: none;
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe__form-btn:hover {
+  box-shadow: 0 0 15px var(--blue);
+}
+
+.subscribe__form-btn-img {
+  position: absolute;
+  left: 26px;
+  top: 22px;
+}
+
+@media screen and (max-width: 1200px) {
+  .subscribe__wrap {
+    padding: 50px 30px 38px 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .subscribe__form {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 45px;
+  }
+}

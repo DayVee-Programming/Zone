@@ -1,0 +1,145 @@
+.product__wrap {
+  padding: 80px 20px 0 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.product__main {
+  max-width: 546px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.product__main-title {
+  font-family: var(--SB);
+  font-weight: 700;
+  font-size: clamp(2.188rem, 1.777rem + 2.05vw, 3.625rem);
+  line-height: 145%;
+  letter-spacing: 0.02em;
+  background: linear-gradient(88deg, #2563eb 0%, #d946ef 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07);
+  position: relative;
+}
+
+.product__main-title::before,
+.product__main-title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.product__main-title::before {
+  background: #171b36;
+  animation: typewriter 2s ease forwards;
+}
+
+.product__main-title::after {
+  width: 0.125em;
+  background: var(--blue);
+  animation: typewriter 2s ease forwards,
+  blink 2s ease forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+.product__main-text {
+  font-family: var(--SM);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 200%;
+  color: var(--gray);
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07);
+  opacity: 0.8;
+}
+
+.product__main-interact {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.product__main-interact-link {
+  border-radius: 6px;
+  padding: 20px 40px;
+  background: linear-gradient(91deg, #2563eb 0%, #d946ef 100%);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.product__main-interact-link:hover {
+  box-shadow: 0 0 15px var(--purple);
+}
+
+.product__main-interact-watch {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.product__main-interact-watch-svg path {
+  transition: 0.3s;
+}
+
+.product__main-interact-watch:hover .product__main-interact-watch-svg path {
+  fill: var(--purple);
+}
+
+.product__main-interact-watch-span {
+  font-family: var(--SM);
+  font-weight: 500;
+  color: var(--white-light);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.product__main-interact-watch:hover .product__main-interact-watch-span {
+  color: var(--purple);
+}
+
+.product__pic-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .product__wrap {
+    flex-direction: column;
+    padding: 80px 15px 0 15px;
+  }
+
+  .product__main {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product__main {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .product__main-interact-link {
+    padding: 20px;
+  }
+}

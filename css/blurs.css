@@ -1,0 +1,119 @@
+.blur {
+  position: absolute;
+  border-radius: 100%;
+  filter: blur(250px);
+  z-index: -1;
+}
+
+.blur1 {
+  left: 77.71%;
+  right: 1.94%;
+  top: 30.02%;
+  bottom: 56.85%;
+  background: rgba(29, 78, 216, 0.79);
+}
+
+.blur2 {
+  left: 33.33%;
+  right: 44.83%;
+  top: 41.2%;
+  bottom: 46.82%;
+  background: rgba(29, 78, 216, 0.79);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.blur3 {
+  left: 35.07%;
+  right: 44.58%;
+  top: 54.76%;
+  bottom: 33.91%;
+  background: rgba(29, 78, 216, 0.79);
+}
+
+.blur4 {
+  left: 51.04%;
+  right: 28.61%;
+  top: 71.72%;
+  bottom: 20.36%;
+  background: rgba(29, 78, 216, 0.79);
+}
+
+.blur5 {
+  left: 26.85%;
+  right: 55.69%;
+  top: 73.04%;
+  bottom: 19.51%;
+  background: #5141da;
+}
+
+.blur6 {
+  left: 27.34%;
+  right: 55.21%;
+  top: 32.35%;
+  bottom: 61.38%;
+  background: #5141da;
+}
+
+.blur7 {
+  left: 12%;
+  right: 68%;
+  top: 83%;
+  bottom: 9%;
+  background: linear-gradient(166.77deg, #2f79cb -29%, #af51c5 141.21%), #af51c5;
+}
+
+.blur8 {
+  left: 48%;
+  right: 35%;
+  top: 85%;
+  bottom: 7%;
+  background: linear-gradient(180deg, #bc7fd9 0%, #923283 100%);
+}
+
+.blur9 {
+  left: 74%;
+  top: 84%;
+  right: 9%;
+  bottom: 8%;
+  background: linear-gradient(180deg, #8684ed 0%, #4247bb 100%);
+}
+
+.blur10 {
+  left: 11.7%;
+  top: 21.5%;
+  right: 68.4%;
+  bottom: 70.5%;
+  background: rgba(29, 78, 216, 0.79);
+}
+
+.blur11 {
+  left: 48.1%;
+  top: 22.8%;
+  right: 34.8%;
+  bottom: 69.7%;
+  background: rgba(217, 70, 239, 0.43);
+}
+
+.blur12 {
+  left: 73.8%;
+  top: 22%;
+  right: 9.1%;
+  bottom: 70.5%;
+  background: #5141da;
+}
+
+.blur13 {
+  left: -9.31%;
+  right: 84.24%;
+  top: 3.14%;
+  bottom: 90.2%;
+  background: rgba(29, 78, 216, 0.45);
+}
+
+.blur14 {
+  left: 76.11%;
+  right: 0.28%;
+  top: 3.52%;
+  bottom: 90.2%;
+  background: #5141da;
+}
