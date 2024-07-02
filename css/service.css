@@ -19,7 +19,7 @@
 }
 
 .service-desc-title {
-  font-family: var(--SB);
+  font-family: var(--ff-2);
   font-weight: 700;
   font-size: clamp(2.188rem, 2.063rem + 0.63vw, 2.625rem);
 }
@@ -73,8 +73,13 @@
   align-items: center;
 }
 
+.service-cards-card-logo-img {
+  max-width: 42px;
+  max-height: 42px;
+}
+
 .service-cards-card-title {
-  font-family: var(--SM);
+  font-family: var(--ff-3);
   font-weight: 500;
   font-size: 24px;
   margin-bottom: 18px;
@@ -83,7 +88,7 @@
 }
 
 .service-cards-card:hover .service-cards-card-title {
-  color: var(--purple);
+  color: var(--clr-1);
 }
 
 .service-cards-card-text {
@@ -104,7 +109,7 @@
 }
 
 .service-cards-card-more:hover .service-cards-card-more-span {
-  color: var(--purple);
+  color: var(--clr-1);
 }
 
 .service-cards-card-more-svg path {
@@ -112,5 +117,5 @@
 }
 
 .service-cards-card-more:hover .service-cards-card-more-svg path {
-  fill: var(--purple);
+  fill: var(--clr-1);
 }

@@ -17,11 +17,6 @@
   flex-direction: row-reverse;
 }
 
-.projects__project-pic-img {
-  width: 100%;
-  height: 100%;
-}
-
 .projects__project-desc {
   max-width: 600px;
   width: 100%;
@@ -32,7 +27,7 @@
 }
 
 .projects__project-desc-title {
-  font-family: var(--SB);
+  font-family: var(--ff-2);
   font-weight: 700;
   font-size: clamp(1.875rem, 1.661rem + 1.07vw, 2.625rem);
 }
@@ -52,7 +47,7 @@
 }
 
 .projects__project-desc-link:hover {
-  box-shadow: 0 0 15px var(--purple);
+  box-shadow: 0 0 15px var(--clr-1);
 }
 
 @media screen and (max-width: 992px) {

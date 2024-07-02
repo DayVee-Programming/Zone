@@ -19,7 +19,7 @@
 }
 
 .team__desc-title {
-  font-family: var(--SB);
+  font-family: var(--ff-2);
   font-weight: 700;
   font-size: clamp(1.875rem, 1.786rem + 0.45vw, 2.188rem);
 }
@@ -53,6 +53,11 @@
   );
 }
 
+.team__cards-card-img {
+  max-width: 128px;
+  max-height: 130px;
+}
+
 .fade_top {
   opacity: 0;
   transform: translateY(200px);
@@ -71,7 +76,7 @@
 }
 
 .team__cards-card-desc-title {
-  font-family: var(--SM);
+  font-family: var(--ff-3);
   font-weight: 500;
   font-size: 28px;
   padding-bottom: 6px;
@@ -79,7 +84,7 @@
 }
 
 .team__cards-card:hover .team__cards-card-desc-title {
-  color: var(--purple);
+  color: var(--clr-1);
 }
 
 .team__cards-card-desc-text {
@@ -87,6 +92,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .team__cards-card-desc-socials {

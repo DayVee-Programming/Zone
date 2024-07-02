@@ -17,7 +17,7 @@
 }
 
 .subscribe__title {
-  font-family: var(--SB);
+  font-family: var(--ff-2);
   font-weight: 700;
   font-size: clamp(2.188rem, 2.066rem + 0.61vw, 2.625rem);
   text-align: center;
@@ -25,7 +25,7 @@
 }
 
 .subscribe__text {
-  font-family: var(--RoR);
+  font-family: var(--ff-5);
   font-weight: 400;
   line-height: 187%;
   text-align: center;
@@ -51,7 +51,7 @@
 }
 
 .subscribe__form-input {
-  font-family: var(--RuR);
+  font-family: var(--ff-4);
   font-weight: 400;
   font-size: 18px;
   line-height: 167%;
@@ -59,22 +59,22 @@
   background: transparent;
   border: none;
   outline: none;
-  color: var(--white);
+  color: var(--clr-2);
 }
 
 .subscribe__form-input::placeholder {
-  color: var(--white);
+  color: var(--clr-2);
 }
 
 .subscribe__form-btn {
   max-width: 196px;
   width: 100%;
-  font-family: var(--RuR);
+  font-family: var(--ff-4);
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
   text-align: center;
-  color: var(--white);
+  color: var(--clr-2);
   padding: 15px 48px;
   position: relative;
   border-radius: 70px;
@@ -86,13 +86,15 @@
 }
 
 .subscribe__form-btn:hover {
-  box-shadow: 0 0 15px var(--blue);
+  box-shadow: 0 0 15px var(--clr-4);
 }
 
 .subscribe__form-btn-img {
   position: absolute;
   left: 26px;
   top: 22px;
+  max-width: 16px;
+  max-height: 16px;
 }
 
 @media screen and (max-width: 1200px) {
