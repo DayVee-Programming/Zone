@@ -19,6 +19,10 @@
   --ff-5: "Rubik-Regular", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--ff-1);
   font-weight: 400;
@@ -39,6 +43,7 @@ h6 {
 
 a {
   color: inherit;
+  cursor: pointer;
 }
 
 img {
@@ -46,18 +51,22 @@ img {
   height: 100%;
 }
 
-.page-container {
-  max-width: 1470px;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+address {
+  font-style: normal;
 }
 
-.container {
-  max-width: 1200px;
-  width: 100%;
+/* original container for a full webpage */
+.full-container {
+  width: min(100%, 1470px);
   height: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+
+/* container for a webpage with margin of 135px from left and right compared to original container */
+.container {
+  width: min(100%, 1200px);
+  height: 100%;
+  margin-inline: auto;
+  padding-inline: 15px;
 }

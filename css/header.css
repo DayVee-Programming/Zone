@@ -74,8 +74,7 @@
 }
 
 .header__bars-span {
-  max-width: 50px;
-  width: 100%;
+  width: min(100%, 50px);
   height: 4px;
   background: var(--white-light);
   display: flex;

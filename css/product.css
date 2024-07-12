@@ -7,8 +7,7 @@
 }
 
 .product__main {
-  max-width: 546px;
-  width: 100%;
+  width: min(100%, 546px);
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -32,10 +31,7 @@
 .product__main-title::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
 }
 
 .product__main-title::before {

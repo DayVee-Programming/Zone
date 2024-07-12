@@ -67,8 +67,7 @@
 }
 
 .subscribe__form-btn {
-  max-width: 196px;
-  width: 100%;
+  width: min(100%, 196px);
   font-family: var(--ff-4);
   font-weight: 500;
   font-size: 20px;

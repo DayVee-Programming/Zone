@@ -14,61 +14,61 @@
   flex-wrap: wrap;
 }
 
-.footer__main-info {
+.footer__main-address {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.footer__main-info-logo {
+.footer__main-address-logo {
   display: flex;
   gap: 8px;
   align-items: center;
 }
 
-.footer__main-info-logo-img {
+.footer__main-address-logo-img {
   max-width: 35px;
   max-height: 35px;
 }
 
-.footer__main-info-logo-span {
+.footer__main-address-logo-span {
   transition: 0.3s;
 }
 
-.footer__main-info-logo:hover .footer__main-info-logo-span {
+.footer__main-address-logo:hover .footer__main-address-logo-span {
   color: var(--clr-1);
 }
 
-.footer__main-info-list {
+.footer__main-address-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.footer__main-info-list-item {
+.footer__main-address-list-item {
   display: flex;
   gap: 6px;
   align-items: center;
   cursor: pointer;
 }
 
-.footer__main-info-list-item-link {
+.footer__main-address-list-item-link {
   font-weight: 400;
   line-height: 200%;
   color: rgba(255, 255, 255, 0.8);
   transition: 0.3s;
 }
 
-.footer__main-info-list-item:hover .footer__main-info-list-item-link {
+.footer__main-address-list-item:hover .footer__main-address-list-item-link {
   color: var(--clr-1);
 }
 
-.footer__main-info-socials {
+.footer__main-address-socials {
   display: flex;
   gap: 15px;
 }
 
-.footer__main-info-socials-link {
+.footer__main-address-socials-link {
   width: 32px;
   height: 32px;
   border-radius: 100%;
@@ -80,11 +80,11 @@
   transition: 0.3s;
 }
 
-.footer__main-info-socials-link:hover {
+.footer__main-address-socials-link:hover {
   border-color: var(--clr-1);
 }
 
-.footer__main-info-socials-link-img {
+.footer__main-address-socials-link-img {
   max-width: 18px;
   max-height: 18px;
 }
@@ -112,11 +112,11 @@
   padding-right: 98px;
 }
 
-.footer__main-info-list-item-svg path {
+.footer__main-address-list-item-svg path {
   transition: 0.3s;
 }
  
-.footer__main-info-list-item:hover .footer__main-info-list-item-svg path {
+.footer__main-address-list-item:hover .footer__main-address-list-item-svg path {
   stroke: var(--clr-1);
 }
 
