@@ -85,10 +85,6 @@
   text-align: center;
 }
 
-.service-cards-card:hover .service-cards-card-title {
-  color: var(--clr-1);
-}
-
 .service-cards-card-text {
   line-height: 162%;
   text-align: center;
@@ -106,7 +102,7 @@
   transition: 0.3s;
 }
 
-.service-cards-card-more:hover .service-cards-card-more-span {
+.service-cards-card:hover .service-cards-card-more-span {
   color: var(--clr-1);
 }
 
@@ -114,6 +110,6 @@
   transition: 0.3s;
 }
 
-.service-cards-card-more:hover .service-cards-card-more-svg path {
+.service-cards-card:hover .service-cards-card-more-svg path {
   fill: var(--clr-1);
 }

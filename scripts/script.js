@@ -2,7 +2,6 @@ class Dropdown {
   constructor(obj) {
     this.dropdown = document.querySelector(obj.dropdown);
     this.toggle = document.querySelector(obj.toggle);
-
     this.toggle.addEventListener("click", () => this.makeActive());
   }
 
@@ -20,7 +19,6 @@ class Fade {
   constructor(obj) {
     this.section = document.querySelector(obj.section);
     this.cards = document.querySelectorAll(obj.cards);
-
     window.addEventListener("scroll", () => this.move());
   }
 

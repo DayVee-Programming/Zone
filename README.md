@@ -4,11 +4,11 @@ Zone has over 15 year experience in business consulting arena.
 
 ## Screenshots from the project
 
-<img src="/img/screenshot1.jpg" />
+<img src="/img/screenshot1.png" />
 <hr>
-<img src="/img/screenshot2.jpg" />
+<img src="/img/screenshot2.png" />
 <hr>
-<img src="/img/screenshot3.jpg" />
+<img src="/img/screenshot3.png" />
 
 ## How to run the project 
 
