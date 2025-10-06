@@ -1,4 +1,6 @@
 class Dropdown {
+  DEFAULT_SPEED = 400;
+
   constructor(obj) {
     this.dropdown = document.querySelector(obj.dropdown);
     this.toggle = document.querySelector(obj.toggle);
@@ -30,10 +32,9 @@ class Fade {
       this.cards.forEach((card) => {
         const speed = card.hasAttribute("data-speed")
           ? card.getAttribute("data-speed")
-          : 400;
+          : this.DEFAULT_SPEED;
 
         card.classList.add("active");
-
         card.style.transition = `${speed / 1000}s`;
       });
     }
